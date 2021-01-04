@@ -1,4 +1,102 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
-    background-color: blue;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* html, body, #showcase {
+    height: 100%;
+    min-height: 100vh;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+
+}
+
+/* Navbar */
+
+.logo {
+    padding: 6px 0 0 25px;
+    font-family: 'Ubuntu';
+}
+
+.navbar {
+    padding-top: 10px;
+    min-height: 70px;
+    background-color: #21209c;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 20px 30px 0 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+/* Showcase */
+
+#showcase {
+    background-color: #21209c;
+    height: 635px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.part1 {
+    width: 40%;
+    margin: 130px 20px 0 20px;
+    text-align: center;
+}
+
+.part2 {
+    width: 60%;
+    margin: 20px;
+}
+
+.part1 h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.part1 .btn {
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #fff;
+    margin: 40px 30px 0 0;
+    width: 200px;
+}
+
+.part1 .btn:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
 }
